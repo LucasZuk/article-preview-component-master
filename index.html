@@ -9,11 +9,12 @@
   <title>Frontend Mentor | Article preview component</title>
 
   <link rel="stylesheet" href="./style.css"/> 
+  <link rel="stylesheet" href="./desktop.css"/>
   <link rel="stylesheet" href="./attribution.css"/> 
 </head>
 <body>
   <!-- ARTICLE PREVIEW -->
-  <aside>
+  <article class="article_box_shadow">
 
     <!-- ARTICLE PREVIEW DRAWERS -->
     <div class="cut-image"><img src="./images/drawers.jpg" alt="Drawers" class="article_preview_drawers"/></div>
@@ -41,17 +42,19 @@
             <div class="article_preview_bottom_profil_identity_name">
               Michelle Appleton
             </div>
-            <div class="article_preview_bottom_profil_identity_postDate">
+            <time datetime="2020-06-28" class="article_preview_bottom_profil_identity_postDate" >
               28 Jun 2020
-            </div>
+            </time>
           </div>
         </div>
-        <div class="article_preview_bottom_profil_share">
-          Share
+        <div class="article_preview_sharing_button_circle">
+          <button id="share">
+            <img class="article_preview_sharing_button" src="./images/icon-share.svg" alt="Sharing button"/>
+          </button>
         </div>
       </div>
     </div>
-  </aside>
+  </article>
 
   <!-- FOOTER -->
   <footer class="attribution">
@@ -59,5 +62,10 @@
     Coded by <a href="#">Your Name Here</a>.
   </footer>
 
+  <!-- TIPPY.JS -->
+  <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+  <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+
+  <script type="text/javascript" src="./share.js"></script>
 </body>
 </html>
