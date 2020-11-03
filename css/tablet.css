@@ -1,9 +1,9 @@
 /* DESKTOP CONFIGURATION ---------------------------------------------------------*/
-	@media screen and (max-width: 1024px) and (min-width: 480px)
+	@media screen and (max-width: 800px) and (min-width: 480px)
 	{
 		:root{
 
-		/* GENERAL FONT SITTING ---------------------------------------------------------*/
+		/* GENERAL FONT SETTING ---------------------------------------------------------*/
 			--article_comment_font_size: 8px;
 			--article_font_size : 12px;
 			--article_underline_size : 0.9em;
@@ -14,7 +14,12 @@
 			/* TOP FLOOR ---------------------------------------------------------*/
 			--article_preview_width : 438px;
 			--article_preview_height : 168px;
-			--article_preview_drawers_width : 171px;
+
+			--article_preview_drawers_width : auto;
+			--article_preview_drawers_height : 100%;
+			--article_preview_drawers_cut_image_width: 171px;
+			--article_preview_drawers_cut_image_height: 100%;
+
 			--article_preview_top_width : 264px;
 
 			/* GROUND FLOOR ---------------------------------------------------------*/
@@ -27,19 +32,14 @@
 			--article_preview_sharing_box_height : 40px;
 			--article_preview_sharing_box_width : 200px;
 
-			--article_share_square_width : 24px;
-			--article_share_square_height : 24px;
-
-			--social_items_photo_width : 6px;
-
-
 		/* ARTICLE PREVIEW PADDING ---------------------------------------------------------*/
 			--article_preview_padding_top : 23px;
 			--article_preview_padding_bottom : 19px;
 			--article_preview_padding_left : 24px;
 			--article_preview_padding_right : 24px;
 
-		/* ARTICLE PREVIEW INFORMATIONS ---------------------------------------------------------*/
+		/* ARTICLE PREVIEW ORIENTATION ---------------------------------------------------------*/
+			--article_flex_direction : row;
 			--article_preview_informations_orientation : column;
 			
 		/* ARTICLE PREVIEW MARGINS ---------------------------------------------------------*/
@@ -49,5 +49,20 @@
 
 			--social_items_margin_left : 13px;
 			--social_items_margin_left : 9px;	
+
+		/* ARTICLE PREVIEW BORDER ---------------------------------------------------------*/
+			--article_preview_border_top_left_radius : 10px;
+			--article_preview_border_top_right_radius: 0px;
+			--article_preview_border_bottom_left_radius: 10px;
+			--article_preview_border_bottom_right_radius: 0px;
+
+			--article_sharing_border_top_left_radius : 10px;
+			--article_sharing_border_top_right_radius: 10px;
+			--article_sharing_border_bottom_left_radius: 10px;
+			--article_sharing_border_bottom_right_radius: 10px;
+
+		/* TIPPY SETTING ---------------------------------------------------------*/
+			--tippy_arrow_visibility : "visible";
+
 		}	
 	}

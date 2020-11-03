@@ -3,19 +3,26 @@
 	{
 		:root{
 
-		/* GENERAL FONT SITTING ---------------------------------------------------------*/
+		/* GENERAL FONT SETTING ---------------------------------------------------------*/
 			--article_comment_font_size: 13px;
-			--article_font_size : 20px;
+			--article_font_size : 15px;
 			--article_underline_size : 1.5em;
 
 		/* GENERAL SCREEN SIZE ---------------------------------------------------------*/
-			--general_width: 1024px;
+			--general_width: 480px;
 
 			/* TOP FLOOR ---------------------------------------------------------*/
-			--article_preview_width : 730px;
-			--article_preview_height : 280px;
-			--article_preview_drawers_width : 285px;
-			--article_preview_top_width : 440px;
+			--article_preview_width : 327px;
+			--article_preview_height : 515px;
+
+			--article_preview_drawers_width : 327px;
+			--article_preview_drawers_height : auto;
+
+			--article_preview_drawers_cut_image_width: 327px;
+			--article_preview_drawers_cut_image_height: 350px;
+
+			--article_preview_top_width : 327px;
+
 
 			/* GROUND FLOOR ---------------------------------------------------------*/
 			--article_preview_avatar_size : 40px;
@@ -24,27 +31,43 @@
 			--article_preview_sharing_button_size : 30px;
 			--article_preview_sharing_button_logo_size : 16px;
 
-			--article_preview_sharing_box_height : 55px;
-			--article_preview_sharing_box_width : 248px;
-
-			--article_share_square_width : 24px;
-			--article_share_square_height : 24px;
+			--article_preview_sharing_box_height : 64px;
+			--article_preview_sharing_box_width : 327px;
 
 		/* ARTICLE PREVIEW PADDING ---------------------------------------------------------*/
-			--article_preview_padding_top : 39px;
-			--article_preview_padding_bottom : 32px;
+			--article_preview_padding_top : 30px;
+			--article_preview_padding_bottom : 18px;
 			--article_preview_padding_left : 40px;
 			--article_preview_padding_right : 40px;
 
-		/* ARTICLE PREVIEW INFORMATIONS ---------------------------------------------------------*/
+		/* ARTICLE PREVIEW ORIENTATION ---------------------------------------------------------*/
+			--article_flex_direction : column;
 			--article_preview_informations_orientation : column;
 			
 		/* ARTICLE PREVIEW MARGINS ---------------------------------------------------------*/
-			--article_preview_bottom_margin_top : 5px;
+			--article_preview_bottom_margin_top : 30px;
 			--article_preview_bottom_profil_margin_left : 16px;
 			--article_preview_bottom_margin_bottom : 0px;
 			
 			--social_items_margin_left : 22px;
 			--social_items_margin_left : 15px;	
+
+		/* ARTICLE PREVIEW BORDER ---------------------------------------------------------*/
+			--article_preview_border_top_left_radius : 10px;
+			--article_preview_border_top_right_radius: 10px;
+			--article_preview_border_bottom_left_radius: 0px;
+			--article_preview_border_bottom_right_radius: 0px;
+
+			--article_sharing_border_top_left_radius : 0px;
+			--article_sharing_border_top_right_radius: 0px;
+			--article_sharing_border_bottom_left_radius: 10px;
+			--article_sharing_border_bottom_right_radius: 10px;
+
+		/* TIPPY SETTING ---------------------------------------------------------*/
+			--tippy_arrow_visibility : "hidden";
+			--article_tippy_position : absolute;
+			--article_tippy_bottom : 100px;
+			--article_tippy_left : 100px;
+
 	}
 
