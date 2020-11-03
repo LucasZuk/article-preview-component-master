@@ -1,0 +1,53 @@
+/* DESKTOP CONFIGURATION ---------------------------------------------------------*/
+	@media screen and (max-width: 1024px) and (min-width: 480px)
+	{
+		:root{
+
+		/* GENERAL FONT SITTING ---------------------------------------------------------*/
+			--article_comment_font_size: 8px;
+			--article_font_size : 12px;
+			--article_underline_size : 0.9em;
+
+		/* GENERAL SCREEN SIZE ---------------------------------------------------------*/
+			--general_width: 1024px;
+
+			/* TOP FLOOR ---------------------------------------------------------*/
+			--article_preview_width : 438px;
+			--article_preview_height : 168px;
+			--article_preview_drawers_width : 171px;
+			--article_preview_top_width : 264px;
+
+			/* GROUND FLOOR ---------------------------------------------------------*/
+			--article_preview_avatar_size : 24px;
+
+			/* ARTICLE PREVIEW SHARING ---------------------------------------------------------*/
+			--article_preview_sharing_button_size : 24px;
+			--article_preview_sharing_button_logo_size : 10px;
+
+			--article_preview_sharing_box_height : 40px;
+			--article_preview_sharing_box_width : 200px;
+
+			--article_share_square_width : 24px;
+			--article_share_square_height : 24px;
+
+			--social_items_photo_width : 6px;
+
+
+		/* ARTICLE PREVIEW PADDING ---------------------------------------------------------*/
+			--article_preview_padding_top : 23px;
+			--article_preview_padding_bottom : 19px;
+			--article_preview_padding_left : 24px;
+			--article_preview_padding_right : 24px;
+
+		/* ARTICLE PREVIEW INFORMATIONS ---------------------------------------------------------*/
+			--article_preview_informations_orientation : column;
+			
+		/* ARTICLE PREVIEW MARGINS ---------------------------------------------------------*/
+			--article_preview_bottom_margin_top : 3px;
+			--article_preview_bottom_profil_margin_left : 10px;
+			--article_preview_bottom_margin_bottom : 0px;
+
+			--social_items_margin_left : 13px;
+			--social_items_margin_left : 9px;	
+		}	
+	}
